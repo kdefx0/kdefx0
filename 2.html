@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Website</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #f0f2f5;
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    .site-title {
+      text-align: center;
+      padding: 30px 15px;
+      font-size: 36px;
+      font-weight: 700;
+      color: #222;
+      letter-spacing: 1.5px;
+      margin-bottom: 10px;
+      text-shadow: 1px 1px 2px #ccc;
+    }
+
+    .subtitle {
+      font-size: 20px;
+      color: #666;
+      margin-top: 10px;
+      letter-spacing: 1px;
+      text-align: center;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #222;
+      padding: 12px 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+      margin: 30px auto 40px auto;
+      font-weight: 600;
+      font-size: 18px;
+      max-width: 900px;
+    }
+
+    .nav-left a {
+      color: #eee;
+      text-decoration: none;
+      margin-right: 25px;
+      transition: color 0.3s ease;
+    }
+
+    .nav-left a:last-child {
+      margin-right: 0;
+    }
+
+    .nav-left a:hover {
+      color: #f39c12;
+      text-decoration: underline;
+    }
+
+    .nav-right input[type="text"] {
+      padding: 7px 12px;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      width: 180px;
+      transition: width 0.3s ease;
+    }
+
+    .nav-right input[type="text"]:focus {
+      width: 240px;
+      outline: none;
+      box-shadow: 0 0 5px #f39c12;
+    }
+
+    .nav-right button {
+      padding: 7px 16px;
+      margin-left: 10px;
+      border: none;
+      background-color: #f39c12;
+      color: white;
+      font-weight: 600;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .nav-right button:hover {
+      background-color: #e67e22;
+    }
+
+    .content {
+      max-width: 750px;
+      margin: 0 auto 60px auto;
+      background: white;
+      padding: 30px 40px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+      border-radius: 12px;
+      font-size: 20px;
+      color: #444;
+    }
+
+    .content p {
+      margin-bottom: 25px;
+      white-space: pre-line;
+    }
+
+    .main-image {
+      display: block;
+      margin: 0 auto 15px auto;
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .image-caption {
+      text-align: center;
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 30px;
+      font-style: italic;
+    }
+
+    .note {
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+      margin-top: 40px;
+    }
+
+    .download-button {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #27ae60;
+      color: white;
+      font-size: 18px;
+      font-weight: 600;
+      border-radius: 6px;
+      text-decoration: none;
+      margin: 40px auto 0;
+      transition: background-color 0.3s ease;
+    }
+
+    .download-button:hover {
+      background-color: #1e8449;
+    }
+
+    .download-container {
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .navbar {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .nav-right input[type="text"] {
+        width: 100%;
+        max-width: 300px;
+      }
+
+      .content {
+        padding: 25px 20px;
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="site-title">Welcome to My Website</div>
+  <div class="subtitle">Learn Video Editing Today</div>
+
+  <div class="navbar">
+    <div class="nav-left">
+      <a href="#">Home</a>
+      <a href="#">Videos</a>
+    </div>
+    <div class="nav-right">
+      <input type="text" placeholder="Search..." aria-label="Search input" />
+      <button aria-label="Search button">Search</button>
+    </div>
+  </div>
+
+  <div class="content">
+    <img src="download.jpg" alt="Video Editing Banner" class="main-image" />
+    <p class="image-caption">Your Gateway to Mastering Video Editing</p>
+
+    <p>🎬 Want to Learn Video Editing?<br>
+With our channel/website, you will:<br><br>
+
+Learn everything from basic to advanced video editing skills<br>
+Get step-by-step tutorials on tools like Adobe Premiere Pro, After Effects, CapCut, and DaVinci Resolve<br>
+Access hands-on guides, downloadable templates, and practical editing tips<br>
+Improve your editing skills and take your content to the next level<br><br>
+
+👉 Whether you're a beginner or looking to go pro, we’ve got the tutorials you need — all in one place!<br><br>
+
+Start your editing journey with us — it's easier than ever!<br><br>
+
+🎬 Editing கற்றுக்கொள்ள விரும்புகிறீர்களா?<br>
+எங்கள் சேனல்/வலைத்தளத்தின் மூலம் நீங்கள்:<br><br>
+
+வீடியோ எடிட்டிங்கின் அடிப்படைகள் முதல் மேம்பட்ட தொழில்நுட்பங்கள் வரை கற்றுக்கொள்வீர்கள்<br>
+Adobe Premiere Pro, After Effects, CapCut, DaVinci Resolve போன்ற முன்னணி மென்பொருட்கள் குறித்து பயிற்சி பெறலாம்<br>
+செய்முறை விளக்கங்கள் மற்றும் டெம்ப்ளேட் டவுன்லோடுகள் கிடைக்கும்<br>
+உங்கள் edit திறமையை நவீன அளவுக்கு கொண்டு செல்ல வழிகாட்டி வீடியோக்கள் வழங்கப்படுகின்றன<br><br>
+
+👉 புதியவர்களுக்கான எளிய பாடங்களும், முன்நிறுவன அனுபவம் தேடும் advance tutorials-உம் இதே இடத்தில்!<br><br>
+
+இனிமேல் Editing கற்றல் சிக்கலல்ல – எங்கள் சேனலுடன் ஆரம்பியுங்கள்!</p>
+ </div>
+
+  <div class="content">
+    <img src="download (1).jpg" alt="Video Editing Banner" class="main-image" />
+    <p class="image-caption">Your Gateway to Mastering Video Editing</p>
+<p>🎬 Want to Learn Video Editing?<br>
+With our channel/website, you will:<br><br>
+
+Alight Motion is a professional motion design app available for smartphones, tablets, and Mac devices, allowing users to create animations, motion graphics, and video compositing. It provides a range of features, including vector and bitmap support, grouping and masking, color adjustment, and various effects, making it a comprehensive tool for visual content creation.
+
+அலைட் மோஷன் என்பது ஸ்மார்ட்போன்கள், டேப்லெட்டுகள் மற்றும் மேக் சாதனங்களுக்குக் கிடைக்கும் ஒரு தொழில்முறை இயக்க வடிவமைப்பு பயன்பாடாகும், இது பயனர்கள் அனிமேஷன்கள், மோஷன் கிராபிக்ஸ் மற்றும் வீடியோ தொகுத்தலை உருவாக்க அனுமதிக்கிறது . இது வெக்டார் மற்றும் பிட்மேப் ஆதரவு, குழுவாக்கம் மற்றும் மறைத்தல், வண்ண சரிசெய்தல் மற்றும் பல்வேறு விளைவுகள் உள்ளிட்ட பல்வேறு அம்சங்களை வழங்குகிறது, இது காட்சி உள்ளடக்க உருவாக்கத்திற்கான ஒரு விரிவான கருவியாக அமைகிறது.<br><br>
+
+👉 Whether you're a beginner or looking to go pro, we’ve got the tutorials you need — all in one place!<br><br>
+
+Start your editing journey with us — it's easier than ever!<br><br>
+</div>
+
+  <!-- Download Button -->
+  <div class="download-container">
+  <a href="https://getmodsapk.com/dl-track/alight-motion-premium-mod-apk/99440" download class="download-button">📥 Download</a>
+</div>
+
+
+<script>
+  function startRedirect() {
+    setTimeout(function () {
+      window.location.href = 'nextpage.html'; // change this to your destination URL
+    }, 10000); // 10000 ms = 10 seconds
+  }
+</script>
+
+
+</div>
+
+  <div class="content">
+    <img src="download (2).jpg" alt="Video Editing Banner" class="main-image" />
+    <p class="image-caption">Your Gateway to Mastering Video Editing</p>
+<p>🎬 Want to Learn Video Editing?<br>
+With our channel/website, you will:<br><br>
+
+CapCut is a free, all-in-one video editing app available on both mobile and desktop, developed by ByteDance. It offers a wide range of features and special effects for creating professional-looking videos, including AI-powered tools like auto captions and text-to-speech.
+
+கேப்கட் என்பது பைட் டான்ஸ் நிறுவனத்தால் உருவாக்கப்பட்ட ஒரு இலவச, ஆல்-இன்-ஒன் வீடியோ எடிட்டிங் செயலியாகும், இது மொபைல் மற்றும் டெஸ்க்டாப்பில் கிடைக்கிறது . இது தொழில்முறை தோற்றமுடைய வீடியோக்களை உருவாக்குவதற்கான பல்வேறு அம்சங்களையும் சிறப்பு விளைவுகளையும் வழங்குகிறது, இதில் தானியங்கி தலைப்புகள் மற்றும் உரையிலிருந்து பேச்சு போன்ற AI-இயங்கும் கருவிகளும் அடங்கும்.<br><br>
+
+👉 Whether you're a beginner or looking to go pro, we’ve got the tutorials you need — all in one place!<br><br>
+</div>
+
+  <!-- Download Button -->
+  <div class="download-container">
+  <a href="https://file.capcutmodapk.com.co/CapCut-Pro-Latest-Version_Capacutmodapk.com.co-2025.apk" download class="download-button">📥 Download</a>
+</div>
+
+
+<script>
+  function startRedirect() {
+    setTimeout(function () {
+      window.location.href = 'nextpage.html'; // change this to your destination URL
+    }, 10000); // 10000 ms = 10 seconds
+  }
+</script>
+ <div class="navbar">
+    <div class="nav-left">
+    </div>
+    <div class="nav-right">
+      <input type="text" placeholder="Search..." aria-label="Search input" />
+      <button aria-label="Search button">Search</button>
+    </div>
+  </div>
+</body>
+</html>
